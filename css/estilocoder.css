@@ -1,0 +1,186 @@
+*{ box-sizing: border-box; }
+body{
+    font-family: "roboto", sans-serif ;
+    margin: 0;
+    background-color: #C1D0B5;
+
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em; }
+h3{font-size: 2em;}
+p{font-size: 2em;}
+ul{list-style: none;}
+li{font-size:  1.25em; }
+
+/* botones de info */
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px,40px;
+    border-radius: 10px;
+     border: 1px solid rgba(black);
+     box-shadow: 2px,2px,10px rgba(black);
+     color: white;
+     background-color: rebeccapurple;}
+
+    button:hover{
+         background-color: rgb(40, 19, 61);}
+    
+ .Container-Naveg{
+    display: flex;
+    flex-direction:column; 
+    margin: auto;
+    text-decoration: none;
+  
+}
+.Botones a {
+    max-width: 1400px; 
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.Logo{
+    margin: 0;
+    padding: 25px 30px ;
+    font-weight: bold;
+    color: rgb(3, 3, 20);
+    text-align: center;
+}
+
+.Logo-Direccion a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+.Logo-Direccion{ 
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-left: 76em;
+       
+}
+ /* Config de fondo */
+ #hero{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ flex-direction: column;
+ background-image: linear-gradient(
+    0deg,
+     rgba(219, 212, 212, 0.5),
+     rgba(136, 114, 114, 0.5)
+ )
+ /* Foto de fondo */
+ ,url(../img/ropa.jpg); 
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: left;
+ }
+
+/* arranca el formulario completo */
+.formulario {
+  
+  width: 400px;
+  background: rgb(161, 102, 147);
+  padding: 30px;
+  margin-left: 40%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: 'Playfair Display', serif;
+  color: rgb(8, 5, 5);
+  box-shadow: 7px 13px 37px #000;
+  border-radius: 2%;
+  border-style: solid;
+ background-image: url(/Aoki-Store/img/fondos-estudio-fotografico-810x540.jpg);
+}
+
+.formulario h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.campos {
+  width: 100%;
+  padding: 10px;
+  background: rgb(247, 247, 247);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(33, 33, 82);
+}
+
+.formulario .botons {
+  width: 100%;
+  background: rgb(247, 247, 247);
+  border: none;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario textarea {
+  resize: none;
+}
+
+.formulario .botons:hover {
+  background-color: rgb(133, 50, 158);
+  color: #413232;
+  transition: all 0.1s ease;
+}
+
+#frase-presentacion {
+  font-size:10px px;
+  width:10px ;
+  
+}
+
+.BuzoRemera img{
+  width: 300px;
+  height: 300px;
+
+}
+
+/* config de footer */
+.redes img{
+width: 50px;
+height: 50px;
+}
+.redes {
+  padding-top: 10px;
+}
+.BuzoRemera {
+  color: aqua;
+}
+.Frente-Principal {
+  background-color: #99A98F;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.Contenedor-Carta {
+display: flex;
+ 
+}
+.abajo {
+  display: flex;
+  
+}
+.Fin {
+  padding: 5px 50px;
+}
+.card{
+  margin: 7px 45px;
+  background-color: #C1D0B5;
+}
+@media (max-width:1200px) {
+  .Logo-Direccion{
+    margin-left: 0;
+  }
+  .Contenedor-Carta{
+    flex-direction: column;
+  }
+}
