@@ -1,17 +1,232 @@
-/* Error: Missing element $green.
- *    ,
- * 46 |     border: 1px solid rgba(black);
- *    |                       ^^^^^^^^^^^
- *    '
- *   scss\style.scss 46:20  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Missing element $green.\a    \2577 \a 46 \2502      border: 1px solid rgba(black);\d\a    \2502                        ^^^^^^^^^^^\a    \2575 \a   scss\\style.scss 46:20  root stylesheet";
+* {
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-image: url("/img/fotoderopa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.7em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 1.25em;
+}
+
+/* botones de info */
+button {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px, 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: rebeccapurple;
+}
+
+button:hover {
+  background-color: rgb(40, 19, 61);
+}
+
+.Container-Naveg {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-decoration: none;
+}
+
+.Botones a {
+  max-width: 1400px;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.Botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(3, 3, 20);
+  text-align: center;
+}
+
+.Logo-Direccion a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
+
+.Logo-Direccion {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin-left: 76em;
+}
+
+/* Config de fondo */
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: linear-gradient(0deg, rgba(219, 212, 212, 0.5), rgba(136, 114, 114, 0.5)), url(/img/fotoderopa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* arranca el formulario completo */
+.formulario {
+  width: 400px;
+  background: rgb(43, 80, 136);
+  padding: 30px;
+  margin-left: 40%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Playfair Display", serif;
+  color: rgb(8, 5, 5);
+  box-shadow: 7px 13px 37px #000;
+  border-radius: 2%;
+  border-style: solid;
+  background-image: url(/Aoki-Store/img/fondos-estudio-fotografico-810x540.jpg);
+}
+
+.formulario h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.campos {
+  width: 100%;
+  padding: 10px;
+  background: rgb(247, 247, 247);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(33, 33, 82);
+}
+
+.formulario .botons {
+  width: 100%;
+  background: rgb(247, 247, 247);
+  border: none;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario textarea {
+  resize: none;
+}
+
+.formulario .botons:hover {
+  background-color: rgb(6, 3, 7);
+  color: #413232;
+  transition: all 0.1s ease;
+}
+
+#frase-presentacion {
+  font-size: 10px px;
+  width: 10px;
+}
+
+.BuzoRemera img {
+  width: 300px;
+  height: 300px;
+}
+
+/* config de footer */
+.redes img {
+  width: 50px;
+  height: 50px;
+}
+
+.redes {
+  padding-top: 10px;
+}
+
+.BuzoRemera {
+  color: aqua;
+}
+
+.Frente-Principal {
+  background-image: url("/img/fotoderopa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #03020c;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.Contenedor-Carta {
+  display: flex;
+}
+
+.abajo {
+  display: flex;
+}
+
+.Fin {
+  padding: 5px 50px;
+}
+
+.card {
+  margin: 7px 45px;
+  background-color: rgba(54, 68, 107, 0.2823529412);
+}
+
+@media (max-width: 1200px) {
+  .Logo-Direccion {
+    margin-left: 0;
+  }
+  .Contenedor-Carta {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
