@@ -1,0 +1,17 @@
+$color_1: white;
+$color_2: rgb(3, 3, 20);
+$color_3: rgb(0, 0, 0);
+$color_4: rgb(8, 5, 5);
+$color_5: #413232;
+$color_6: aqua;
+$color_7: #03020c;
+$font-family_1: "Roboto", sans-serif;
+$font-family_2: "Playfair Display", serif; 
+
+
+@mixin mendoza{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
