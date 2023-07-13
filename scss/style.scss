@@ -168,6 +168,15 @@ button {
 	padding-top: 10px;
 	
 }
+a{
+	text-decoration: none;
+	text-shadow: 5px 5px 5px rgb(182, 198, 221);
+	&:visited {
+		color: #000;
+		
+	}
+}
+
 .Frente-Principal {
 	background-image: url("/img/fotoderopa.jpg");
 	background-repeat: no-repeat;
@@ -184,9 +193,16 @@ button {
 .abajo {
 	display: flex;
 	background-color: rgb(243, 116, 52);
+    margin-top: 200px;
 }
+
+
 .Fin {
 	padding: 5px 50px;
+
+}
+.indice{
+	text-align: center;
 }
 .card {
 	margin: 7px 45px;
