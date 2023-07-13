@@ -8,8 +8,7 @@ $color_7: #03020c;
 $font-family_1: "Roboto", sans-serif;
 $font-family_2: "Playfair Display", serif; 
 
-
-@mixin mendoza{
+@mixin mendoza {
     display: flex;
 	flex-direction: column;
 	justify-content: center;

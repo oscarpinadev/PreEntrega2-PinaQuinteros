@@ -1,3 +1,8 @@
+/* botones de info */
+/* Config de fondo */
+/* arranca el formulario completo */
+/* config de footer */
+
 * {
   box-sizing: border-box;
 }
@@ -35,7 +40,6 @@ li {
   font-size: 1.25em;
 }
 
-/* botones de info */
 button {
   font-size: 1.5em;
   font-weight: bold;
@@ -44,7 +48,6 @@ button {
   color: white;
   background-color: rebeccapurple;
 }
-
 button:hover {
   background-color: rgb(40, 19, 61);
 }
@@ -61,18 +64,17 @@ button:hover {
   text-decoration: none;
 }
 
-.Botones a {
-  max-width: 1400px;
-  margin: auto;
-  text-decoration: none;
-  color: white;
-}
-
 .Botones {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.Botones a {
+  max-width: 1400px;
+  margin: auto;
+  text-decoration: none;
+  color: white;
 }
 
 .container {
@@ -98,20 +100,18 @@ button:hover {
   font-size: 75px;
 }
 
-.Logo-Direccion a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-size: larger;
-}
-
 .Logo-Direccion {
   display: flex;
   flex-direction: column;
   align-items: right;
   margin-left: 76em;
 }
+.Logo-Direccion a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
 
-/* Config de fondo */
 #hero {
   display: flex;
   align-items: center;
@@ -124,7 +124,6 @@ button:hover {
   background-position: left;
 }
 
-/* arranca el formulario completo */
 .formulario {
   width: 400px;
   background: rgb(43, 80, 136);
@@ -139,10 +138,26 @@ button:hover {
   border-style: solid;
   background-image: url(/Aoki-Store/img/fondos-estudio-fotografico-810x540.jpg);
 }
-
 .formulario h4 {
   font-size: 22px;
   margin-bottom: 20px;
+}
+.formulario .botons {
+  width: 100%;
+  background: rgb(247, 247, 247);
+  border: none;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+.formulario .botons:hover {
+  background-color: rgb(6, 3, 7);
+  color: #413232;
+  transition: all 0.1s ease;
+}
+.formulario textarea {
+  resize: none;
 }
 
 .campos {
@@ -154,48 +169,25 @@ button:hover {
   border: 1px solid rgb(33, 33, 82);
 }
 
-.formulario .botons {
-  width: 100%;
-  background: rgb(247, 247, 247);
-  border: none;
-  padding: 12px;
-  margin: 16px 0;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.formulario textarea {
-  resize: none;
-}
-
-.formulario .botons:hover {
-  background-color: rgb(6, 3, 7);
-  color: #413232;
-  transition: all 0.1s ease;
-}
-
 #frase-presentacion {
   font-size: 10px px;
   width: 10px;
 }
 
+.BuzoRemera {
+  color: aqua;
+}
 .BuzoRemera img {
   width: 300px;
   height: 300px;
 }
 
-/* config de footer */
-.redes img {
-  width: 50px;
-  height: 50px;
-}
-
 .redes {
   padding-top: 10px;
 }
-
-.BuzoRemera {
-  color: aqua;
+.redes img {
+  width: 50px;
+  height: 50px;
 }
 
 .Frente-Principal {

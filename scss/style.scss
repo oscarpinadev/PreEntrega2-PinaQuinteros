@@ -1,12 +1,11 @@
-@import "./variable"
+@import "variable";
 /* botones de info */
 /* Config de fondo */
 /* arranca el formulario completo */
 /* config de footer */
 /*# sourceMappingURL=style.css.map */
-/* {
-	box-sizing: border-box;
-}
+
+*{box-sizing: border-box;}
 
 body {
 	font-family: $font-family_1;
@@ -167,6 +166,7 @@ button {
 		height: 50px;
 	}
 	padding-top: 10px;
+	
 }
 .Frente-Principal {
 	background-image: url("/img/fotoderopa.jpg");
@@ -192,6 +192,7 @@ button {
 	margin: 7px 45px;
 	background-color: rgba(54, 68, 107, 0.2823529412);
 }
+ 
 @media (max-width: 1200px) {
 	.Logo-Direccion {
 		margin-left: 0;
@@ -200,3 +201,4 @@ button {
 		flex-direction: column;
 	}
 }
+
