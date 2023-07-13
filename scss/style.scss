@@ -10,7 +10,7 @@
 body {
 	font-family: $font-family_1;
 	margin: 0;
-	background-image: url("/img/fotoderopa.jpg");
+	background-image: url("/img/fondos-estudio-fotografico-810x540.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -47,6 +47,11 @@ button {
 .encabezado {
 	display: flex;
 	justify-content: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+}
+.Informacion-Usuario{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .Container-Naveg {
 	display: flex;
@@ -83,6 +88,7 @@ button {
 	color: $color_2;
 	text-align: center;
 	font-size: 75px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .Logo-Direccion {
 	a {
@@ -108,7 +114,7 @@ button {
 }
 .formulario {
 	width: 400px;
-	background: rgb(43, 80, 136);
+	background: rgb(98, 74, 182);
 	padding: 30px;
 	margin-left: 40%;
 	margin-top: 100px;
@@ -150,8 +156,22 @@ button {
 	border: 1px solid rgb(33, 33, 82);
 }
 #frase-presentacion {
-	font-size: 10px px;
+	font-size: 10px 30px;
 	width: 10px;
+	  
+}
+.Frase-presentacion {
+	text-align: center;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.Definicion {
+	text-align: center;
+	 
+}
+.Caracteristicas-Page{
+	padding-left:20px;
+	
 }
 .BuzoRemera {
 	img {
@@ -178,7 +198,7 @@ a{
 }
 
 .Frente-Principal {
-	background-image: url("/img/fotoderopa.jpg");
+	background-image: url();
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -192,7 +212,7 @@ a{
 }
 .abajo {
 	display: flex;
-	background-color: rgb(243, 116, 52);
+	background-color: rgb(98, 74, 182);
     margin-top: 200px;
 }
 
