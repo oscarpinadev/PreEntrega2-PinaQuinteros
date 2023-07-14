@@ -10,7 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  background-image: url("/img/fondos-estudio-fotografico-810x540.jpg");
+  background-image: url("../img/fondos-estudio-fotografico-810x540.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -142,7 +142,7 @@ button:hover {
   box-shadow: 7px 13px 37px #000;
   border-radius: 2%;
   border-style: solid;
-  background-image: url(/Aoki-Store/img/fondos-estudio-fotografico-810x540.jpg);
+  background-image: url("../img/fondos-estudio-fotografico-810x540.jpg");
 }
 .formulario h4 {
   font-size: 22px;
