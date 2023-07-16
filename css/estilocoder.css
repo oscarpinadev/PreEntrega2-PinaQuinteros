@@ -193,9 +193,10 @@ button:hover {
 }
 
 .BuzoRemera {
+  display: flex;
   color: aqua;
 }
-.BuzoRemera img {
+.BuzoRemera flex-direction:row img {
   width: 300px;
   height: 300px;
 }
