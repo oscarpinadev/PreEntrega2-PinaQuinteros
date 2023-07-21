@@ -9,11 +9,16 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: aliceblue;
   margin: 0;
   background-image: url("../img/fondos-estudio-fotografico-810x540.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.principal {
+  color: rgb(8, 0, 0);
 }
 
 h1 {
@@ -124,7 +129,7 @@ button:hover {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  background-image: linear-gradient(0deg, rgba(219, 212, 212, 0.5), rgba(136, 114, 114, 0.5)), url(/img/fotoderopa.jpg);
+  background-image: linear-gradient(0deg, rgba(248, 231, 231, 0.5), rgba(136, 114, 114, 0.5)), url(/img/fotoderopa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
